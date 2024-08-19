@@ -1,0 +1,122 @@
+*
+{-bs-dropdown-color: #dee2e6;
+  --bs-dropdown-bg: #343a40;
+  --bs-dropdown-border-color: var(--bs-border-color-translucent);
+  --bs-dropdown-box-shadow: ;
+  --bs-dropdown-link-color: #dee2e6;
+  --bs-dropdown-link-hover-color: #fff;
+  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+  --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
+  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-bg: #ffc800;
+  --bs-dropdown-link-disabled-color: #adb5bd;
+  --bs-dropdown-header-color: #adb5bd;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+p,
+h1,
+h2{
+    font-family: monospace;
+}
+
+.menu
+{
+    background-color:#343a40;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: 1;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo
+{
+  color: #ffc800;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo span{
+    color: #ffc800;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.menu ul li a
+{
+  color: #fff;
+  font-family: monospace;
+}
+
+.menu ul li a:hover{
+    color: #ffc800;
+}
+
+.hero
+{
+    height: calc(100vh - 80px);
+    background-image: url(image/header-bg.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banniere h1
+{
+    font-size: 48px;
+    margin-left: 28%;
+    line-height: 56px;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.banniere h2{
+    font-size: 80px;
+    margin-left: 18%;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    color:#fff;
+    z-index: 2;
+}
+
+.banniere  a
+{
+    margin-left: 45%;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+    background: #ffc800;
+    border-radius: 7px;
+}
+
+.banniere a:hover{
+    letter-spacing: 3px;
+    transition: all 0.5s;
+}
+  
